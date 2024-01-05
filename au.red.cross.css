@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+/* top navbar link */
+
+
+.topNavbar{
+    border-bottom: 2px solid grey;
+}
+
+
+.topNav-bar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-top:0.3rem;
+
+   
+}
+
+.leftTopNavBar ol{
+    display: flex;
+   margin-bottom: 0px;
+    
+}
+
+.leftTopNavBar ol li:hover{
+    border-top:2px solid red ;
+    
+}
+
+
+.leftTopNavBar ol li a{
+  display: inline-block;
+  padding-right: 1rem;
+  padding-top:1rem;
+  padding-left:1rem;
+  text-decoration: none;
+    
+}
+
+.leftTopNavBar ol li a:hover{
+  border-top: 2px solid red;
+  text-decoration: none;
+      
+  }
+
+
+  .rightTopNavBar i{
+    color: black;
+    margin-right: 3rem;
+  }
+
+  .rightTopNavBar a{
+    color: black;
+    text-decoration: none;
+  
+  }
+
+  /* bottom navbar  */
+/*  
+
+.bottomNavBar{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    border-bottom: 2px solid grey;
+    background-color: white;
+  
+}
+
+  .bottomNavBar .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+  }
+
+
+  .bottomNavBar img{
+    width: 10rem;
+  }
+
+  .bottomNavBar nav{
+      margin-top:2rem;
+  }
+
+
+.NavBarSeccond{
+    display: flex;
+    margin-bottom: 0rem;
+}
+
+
+
+
+.navBarSecondList{
+    margin-bottom: 0rem;
+
+
+}
+
+.navBarSecondList:hover{
+    border-bottom:3px solid red ;
+}
+
+.navBarSecondLink{
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.navBarSecondLink:hover{
+    text-decoration: none;
+}
+
+.donate{
+    background: red;
+    text-decoration: none;
+    color:white;
+    padding:0.5rem 1.5rem;
+    border-radius: 5px;
+}
+
+.donate:hover{
+    background: white;
+    color:red;
+    border:2px solid red;
+} */
+
+
+/* PopUp link */
+
+.popUpCommonLink:hover{
+    border-left: 3px solid red;
+}
+
+.popUpCommonLink{
+ 
+    padding-left: 2rem;
+}
+
+.popUpCommonLink a{
+   display: inline-block;
+    text-decoration: none;
+}
+.popUpCommonLink h3{
+   
+    color:black;
+}
+
+
+.popUpCommonLink p{
+   
+    color:black;
+}
+
+
+/* second Pop Up */
+
+.firstPopUpCommonLink a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top:1rem;
+}
+
+
+ /* third pop up  */
+
+ .commonBorder:hover{
+    border-left: 3px solid red;
+ }
+
+ .commonBorder{
+    padding-left:1.5rem;
+ }
+
+
+ .popUpLink a{
+   text-decoration: none;
+   color: black;
+   display: inline-block;
+   margin-top:1rem;
+ }
+
+
+
+.GethelpPopUp{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+
+.twoFirstCol a{
+    display: inline-block;
+}
+
+.twoFirstColLink{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.GethelpPopUp.active{
+   min-height: 300px;
+    background: white;
+  z-index: 1;
+  
+    position: absolute;
+    width: 100%;
+  
+
+
+}
+
+
+
+
+
+/* Section first */
+
+
+
+
+#container2{
+    background: #2f2f2f;
+}
+#ins-container2{
+    width: 80%;
+    margin: 0 auto;
+   padding-top:30px ;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:200px;
+}
+
+
+#left-side-container2{
+    
+    background: #2f2f2f;
+    color:white;
+    width: 45%;
+}
+
+
+#left-side-container2 h3{
+    color:#ffaa2b;
+    margin-bottom:20px;
+}
+
+#left-side-container2 p{
+    margin-bottom: 40px;
+}
+
+#btn1{
+    background:#ffaa2b;
+    height:40px;
+    padding:10px 20px;
+    color:black;
+
+}
+
+#btn1:hover{
+    outline: 1px solid red;
+}
+
+/* hero section  */
+
+#heroSection{
+    background-image: url("https://www.redcross.org.au/contentassets/9f48bfed78bb474bbea5695e1b4e4c12/wave-2-banner-1800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:590px;
+
+}
+
+#heroSection .container{
+    padding-top:8rem;
+}
+
+.firstColHeroSection{
+    width: 600px;
+}
+
+.firstColHeroSection h1{
+   font-weight: bolder;
+    color:white;
+    font-size:5rem;
+}
+
+.firstColHeroSection p{
+    color:white;
+    font-size:2rem;
+  
+}
+
+.firstColHeroSection a{
+    text-decoration: none;
+    color:white;
+    background: red;
+    display: inline-block;
+    padding:1rem 6rem;
+    border-radius: 5px;
+}
+
+.firstColHeroSection a:hover{
+    background: white;
+    color: red;
+    border:2px solid red;
+}
+
+/* 
+ section two  */
+#container3{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#details{
+    display:flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+
+
+.card{
+    width:45%;
+    border:1px solid grey;
+    margin-bottom: 20px;
+}
+
+.card-img img{
+    width: 483px;
+    height:268px;
+}
+
+.card-text{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.lower-card{
+    width:30%;
+    gap:15px;
+    border:1px solid grey;
+}
+
+.lower-card-img img{
+ width:321px;
+
+}
+
+.red{
+    color:red;
+    font-size:15px;
+}
+
+.black{
+    color:black;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+
+.btn1{
+   width:145px;
+    color: red;
+    background: white;
+    border:2px solid red;
+    border-radius: 5px;
+    padding:10px 25px;
+    margin-bottom: 20px;
+}
+
+.btn1:hover{
+    background-color: red;
+    color:white;
+
+}
+
+
+
+
+/* Section 3  */
+#container4{
+    padding-top:50px;
+    width:70%;
+    margin: 0 auto;
+}
+
+
+
+#first-ins-container4{
+    display: flex;
+    justify-content: space-between;
+    font-size:15px;
+
+}
+
+.display{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    
+}
+
+.fa-solid{
+    color: red;
+}
+.display h1{
+font-size: 15px;
+font-weight: lighter;
+text-align: center;
+margin-top:10px;
+margin-bottom:5px;
+}
+
+
+
+
+ /* Section four  */
+#four{
+    margin-top:70px;
+    background: #f6f3ee;
+}
+
+#container5{
+    width:80%;
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+#ins-container5{
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+
+#ins-text-container5 p{
+    margin-bottom: 15px;
+} 
+
+
+
+#container6{
+    width: 80%;
+    margin: 0 auto;
+    padding-top:48px;
+}
+
+#ins-container6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-container6 img{
+    width:80px;
+    height:80px;
+
+}
+
+
+#first-container6 img{
+    margin-bottom: 50px;
+}
+
+ .fa-brands{
+    margin-right: 15px;
+ }
+
+
+
+ol li:nth-child(1){
+    margin-bottom: 20px;
+ 
+}
+
+ol li {
+    margin-bottom: 10px ;
+}
+
+
+
+ol li a:nth-child(1){   
+    font-size:15px;
+    color: black;
+}
+ol li a:hover{
+    
+    text-decoration: underline;
+}
+
+
+
+
+ @media (max-width:767px) {
+
+     /* section first  */
+    #ins-container2{
+        flex-direction: column;
+        gap:0px;
+  
+    }
+    #left-side-container2{
+        width:100%;
+       word-wrap: w;
+    }
+
+    #left-side-container2 p{
+        font-size:16px;
+    }
+
+    #btn1{
+        width:100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+/* 
+     section two  */
+
+    #details{
+    flex-direction: column;
+
+
+    }
+    .card{
+        width: 100%;
+    }
+
+    .card-img img{
+        width:100%;
+    }
+
+    .card-text p{
+        font-size:20px;
+    }
+    .lower-card{
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    .lower-card-img img{
+        width:100%;
+    }
+    /* Section four  */
+    #ins-container5{
+        flex-direction: column;
+    }
+
+
+    
+       /* Section three  */
+      #first-ins-container4{
+        flex-direction: column;
+      gap:30px;
+        align-items: center;
+    }
+
+    .display{
+        width:100%;
+    }
+
+    .display h1,p{
+        font-size:20px;
+    }
+  
+/* 
+    section six */
+
+    #ins-container6 {
+      flex-direction: column;
+      gap:2rem;
+     
+    }
+
+    #first-container6{
+       text-align: center;
+    
+    }
+
+    .common-container6{
+     text-align: center;
+        width: 100%;
+    }
+    
+} 
+
+
+@media (min-width:768px) and (max-width:1344px) {
+     
+     section two 
+      .card{
+        width: 45%;
+       
+       
+      }
+      .card-img img{
+        width: 100%;
+        height:50%;
+      }
+
+      .card-text{
+        justify-content: center;
+        align-items: center;
+       
+      }
+
+      .lower-card-img img{
+        width:100%;
+      }
+
+        
+/* 
+    section six */
+
+    #ins-container6 {
+      
+      flex-wrap: wrap;
+       
+      }
+  
+ 
+}   
+

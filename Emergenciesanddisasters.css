@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topNavbar {
+  border-bottom: 2px solid grey;
+}
+
+.nav-topNavbar {
+  padding-top: 1.5rem;
+}
+.nav-topNavbar ol {
+  display: flex;
+}
+.nav-topNavbar li {
+  list-style-type: none;
+}
+.nav-topNavbar a {
+  text-decoration: none;
+  display: block;
+  padding-right: 0.5rem;
+}
+
+.navbar-brand {
+  width: 10rem;
+}
+
+.nav-Donate-Link {
+  text-decoration: none;
+  color: white;
+  background: red;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+}
+
+.nav-Donate-Link:hover {
+  background: white;
+  color: red;
+  border: 2px solid red;
+}
+
+#heroSection {
+  background-image: url(https://www.redcross.org.au/globalassets/cms/emergency-services/landing-page/emergency-services-hero.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroSectionDetails {
+  width: 400px;
+  color: white;
+  margin-top: 15rem;
+}
+.heroSectionDetails h1 {
+  font-size: 3rem;
+}
+.heroSectionDetails p {
+  font-size: 1.5rem;
+}
+
+.oneCommonWidth {
+  height: 488px;
+}
+
+.oneCommonImg img {
+  width: 100%;
+}
+
+.oneCommonText h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.oneCommonText p {
+  color: #6F6F6F;
+}
+
+.oneFirstColDetailsText a {
+  display: inline-block;
+  background: white;
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 6rem;
+  padding: 0.6rem 2rem;
+}
+.oneFirstColDetailsText a:hover {
+  background: red;
+  color: white;
+}
+
+.oneSecondColDetailsText a {
+  display: inline-block;
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-top: 2.7rem;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+}
+.oneSecondColDetailsText a:hover {
+  background: red;
+  color: white;
+}
+
+.oneCommonBorder {
+  height: 300px;
+  border: 1px solid grey;
+  padding: 0rem 2rem;
+}
+
+.oneThirdColDetails {
+  border: 1px solid rgb(216, 216, 216);
+  height: 100%;
+  padding: 0.5rem 2rem;
+}
+
+.oneThirdColLink {
+  justify-content: space-between;
+}
+.oneThirdColLink a {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  color: black;
+}
+.oneThirdColLink a:hover {
+  text-decoration: underline;
+}
+.oneThirdColLink .fa-solid {
+  align-self: center;
+  color: red;
+}
+
+.FourCommonBorder {
+  border: 1px solid #D8D8D8;
+  width: 50%;
+  display: flex;
+  padding: 1.2rem 1rem;
+}
+.FourCommonBorder img {
+  width: 200px;
+  height: 105px;
+}
+
+.fourCommonText a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+}
+
+.fourCommonHeading {
+  font-weight: bolder;
+}
+
+#last {
+  background: #f8f8f8;
+}
+
+.last-firstcolDetails img {
+  width: 6rem;
+}
+
+.last-firstcol .last-firstcolDetails-Lower .fa-brands {
+  color: red;
+  padding-right: 1rem;
+}
+
+.last-firstcolDetails-Lower {
+  margin-top: 4rem;
+}
+
+.commonLink h3 {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.commonLink ol li {
+  list-style-type: none;
+}
+.commonLink ol li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.commonLink ol li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+  #one .container .row {
+    flex-direction: column;
+  }
+  #one .container .row .col {
+    margin-bottom: 5rem;
+  }
+  #one .container .row .col:last-of-type {
+    margin-bottom: 1rem;
+  }
+  #two .container .row {
+    flex-direction: column;
+  }
+  #two .container .col {
+    margin-bottom: 3rem;
+  }
+  #two .container .col:last-of-type {
+    margin-bottom: 1rem;
+  }
+  .resourceMiddleContentFirstrow {
+    flex-direction: column;
+  }
+  .resourceMiddleContentSecondrow {
+    flex-direction: column;
+  }
+  .FourCommonBorder {
+    width: 100%;
+  }
+  #five .container .row {
+    flex-direction: column;
+  }
+  #five .container .col {
+    margin-bottom: 8rem;
+  }
+  #five .container .col:last-of-type {
+    margin-bottom: 2rem;
+  }
+  #last {
+    padding-top: 2rem;
+  }
+  #last .container .row {
+    flex-direction: column;
+  }
+  #last .container .col {
+    text-align: center;
+  }
+}/*# sourceMappingURL=Emergenciesanddisasters.css.map */

@@ -1,0 +1,381 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topNavbar{
+    border-bottom: 2px solid grey;
+}
+
+.nav-topNavbar{
+    padding-top:1.5rem;
+
+    ol{
+        display: flex
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+        display: block;
+        padding-right: 0.5rem;
+    }
+
+}
+
+
+
+
+.navbar-brand{
+    width:10rem;
+}
+
+.nav-Donate-Link{
+    text-decoration: none;
+    color:white;
+    background: red;
+    display: inline-block;
+    padding:0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.nav-Donate-Link:hover{
+    background: white;
+    color: red;
+    border:2px solid red;
+
+}
+
+
+// hero section 
+#heroSection{
+    background-image: url(https://www.redcross.org.au/globalassets/cms/emergency-services/landing-page/emergency-services-hero.jpg);
+   
+    height:550px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+.heroSectionDetails{
+    width: 400px;
+    color: white;
+    margin-top:15rem;
+
+    
+   h1{
+    font-size:3rem;
+   }
+
+   p{
+    font-size:1.5rem;
+   }
+}
+
+
+
+// section two 
+
+
+.oneCommonWidth{
+   height: 488px;
+}
+
+
+.oneCommonImg img{
+    width: 100%;
+}
+
+
+.oneCommonText{
+
+    h3{
+        margin-top:1rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        color: #6F6F6F;
+    }
+
+   
+
+  
+}
+
+.oneFirstColDetailsText{
+    a{
+        display: inline-block;
+        background: white;
+        color: red;
+        border: 2px solid red;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top:6rem;
+        padding:0.6rem 2rem;
+    }
+
+    a:hover{
+        background: red;
+        color: white;
+    }
+}
+
+
+
+.oneSecondColDetailsText{
+    a{
+        display: inline-block;
+        color: red;
+        border: 2px solid red;
+        border-radius: 5px;
+        margin-top:2.7rem;
+        padding:0.6rem 2rem;
+     
+        text-decoration: none;
+    }
+
+    a:hover{
+        background: red;
+        color: white;
+    }
+
+}
+
+
+.oneCommonBorder{
+    height: 300px;
+    border: 1px solid grey;
+    padding:0rem 2rem;
+}
+
+
+
+
+.oneThirdColDetails{
+    border:1px solid rgb(216,216,216);
+    height: 100%;
+    padding:0.5rem 2rem;
+}
+
+
+.oneThirdColLink{
+  
+ 
+    justify-content: space-between;
+    
+    a{
+        display: inline-block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        padding-top:1rem;
+        color: black;
+
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .fa-solid{
+        align-self: center;
+        color: red;
+    }
+}
+
+
+
+// section four 
+
+.FourCommonBorder{
+
+    border:1px solid #D8D8D8;
+    width:50%;
+    display: flex;
+    padding: 1.2rem 1rem;
+
+
+ 
+        img{
+            width: 200px;
+            height: 105px;
+        }
+      
+       
+    }
+
+.fourCommonText{
+    
+ 
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        margin-left:1rem;
+     
+    }
+
+    
+
+}
+
+.fourCommonHeading{
+    font-weight: bolder;
+    
+}
+
+
+
+// section last
+
+
+
+#last{
+    background: #f8f8f8;
+}
+
+.last-firstcolDetails{
+    img{
+        width: 6rem;
+    }
+}
+
+.last-firstcol{
+
+    .last-firstcolDetails-Lower{
+
+        .fa-brands{
+            color:red;
+            padding-right: 1rem;
+        }
+    }
+
+}
+
+
+
+.last-firstcolDetails-Lower{
+    margin-top: 4rem;
+}
+
+
+.commonLink{
+
+
+    h3{
+
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    ol{
+        li{
+
+
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                margin-top: 0.5rem;
+              
+            }
+
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+@media(max-width:575px){
+
+
+    // section one 
+
+    #one{
+        .container{
+            .row{
+                flex-direction: column;
+                .col{
+                    margin-bottom: 5rem;
+                }
+                .col:last-of-type{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    // section two
+
+    #two{
+        .container{
+            .row{
+                flex-direction: column;
+            }
+            .col{
+                margin-bottom: 3rem;
+            }
+
+            .col:last-of-type{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    // section four 
+
+    .resourceMiddleContentFirstrow{
+        flex-direction: column;
+        
+    }
+
+    .resourceMiddleContentSecondrow{
+        flex-direction: column;
+    }
+
+    .FourCommonBorder{
+        width: 100%;
+    }
+
+
+    // section five
+
+    #five{
+        .container{
+            .row{
+                flex-direction: column;
+            }
+            .col{
+                margin-bottom: 8rem;
+            }
+            .col:last-of-type{
+                margin-bottom: 2rem;
+            }
+        }
+
+    }
+
+
+    // section last 
+
+    #last{
+        padding-top:2rem;
+        .container{
+            .row{
+                flex-direction: column;
+                
+                
+            }
+            .col{
+                text-align: center;
+            }
+        }
+    }
+}
