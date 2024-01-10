@@ -16,9 +16,14 @@
 
 .leftTopNavBar ol {
   display: flex;
+  margin-bottom: 0rem;
+  padding-right: 1rem;
 }
 .leftTopNavBar li {
   list-style-type: none;
+}
+.leftTopNavBar li:hover {
+  border-top: 3px solid red;
 }
 .leftTopNavBar a {
   display: inline-block;
@@ -37,15 +42,24 @@
   color: black;
 }
 
+.bottomNavBar {
+  border-bottom: 2px solid grey;
+}
+
+.navbar-brand {
+  width: 10rem;
+}
+
 .nav-link {
   color: black;
 }
 
 .nav-Donate-Link {
+  display: inline-block;
   background: red;
   color: white;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   border-radius: 5px;
 }
 

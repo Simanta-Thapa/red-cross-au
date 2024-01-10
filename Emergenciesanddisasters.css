@@ -5,12 +5,15 @@
 }
 
 .topNavbar {
-  border-bottom: 2px solid grey;
+  border-bottom: 1px solid grey;
 }
 
-.nav-topNavbar {
-  padding-top: 1.5rem;
+.topNav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .nav-topNavbar ol {
   display: flex;
 }
@@ -19,27 +22,68 @@
 }
 .nav-topNavbar a {
   text-decoration: none;
-  display: block;
-  padding-right: 0.5rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: black;
+}
+
+.leftTopNavBar ol {
+  display: flex;
+  margin-bottom: 0rem;
+  padding-right: 1rem;
+}
+.leftTopNavBar li {
+  list-style-type: none;
+}
+.leftTopNavBar li:hover {
+  border-top: 3px solid red;
+}
+.leftTopNavBar a {
+  display: inline-block;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.rightTopNavBar {
+  padding: 0rem 2rem;
+}
+.rightTopNavBar a {
+  display: inline-block;
+  padding: 0rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.bottomNavBar {
+  border-bottom: 2px solid grey;
 }
 
 .navbar-brand {
   width: 10rem;
 }
 
+.nav-link {
+  color: black;
+}
+
+.nav-item {
+  color: black;
+}
+
 .nav-Donate-Link {
-  text-decoration: none;
-  color: white;
-  background: red;
   display: inline-block;
+  background: red;
+  color: white;
+  text-decoration: none;
   padding: 0.5rem 2rem;
   border-radius: 5px;
 }
 
 .nav-Donate-Link:hover {
+  border: 2px solid red;
   background: white;
   color: red;
-  border: 2px solid red;
 }
 
 #heroSection {
@@ -197,7 +241,7 @@
     flex-direction: column;
   }
   #one .container .row .col {
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
   #one .container .row .col:last-of-type {
     margin-bottom: 1rem;
@@ -206,7 +250,7 @@
     flex-direction: column;
   }
   #two .container .col {
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
   }
   #two .container .col:last-of-type {
     margin-bottom: 1rem;
@@ -237,5 +281,13 @@
   }
   #last .container .col {
     text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 1154px) {
+  .oneCommonText a {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
   }
 }/*# sourceMappingURL=Emergenciesanddisasters.css.map */
