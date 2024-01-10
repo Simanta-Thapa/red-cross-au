@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$(".NavBarSeccond li a").mouseenter(function(){
+$(".navbar-nav .navBarSecondList .navBarSecondLink").mouseenter(function(){
 
 
   $(".GethelpPopUp").removeClass("active");
