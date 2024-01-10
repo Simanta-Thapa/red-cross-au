@@ -65,6 +65,37 @@
   
   }
 
+
+  /* .bottomNavBar{
+    border-bottom: 2px solid grey;
+  } */
+
+  .navbar{
+    padding-bottom: 0rem;
+  }
+
+  .padding{
+    padding:0rem 2rem;
+  }
+
+  .navbar-brand{
+    display:block;
+    width: 10rem;
+  }
+  
+
+  .navBarSecondLink{
+    display: inline-block;
+    padding:1.5rem 1rem;
+    text-decoration: none;
+    color:black;
+  }
+
+
+  .navBarSecondList:hover{
+    border-bottom: 2px solid red;
+
+  }
   /* bottom navbar  */
 /*  
 
@@ -141,6 +172,11 @@
 
 
 /* PopUp link */
+
+
+.GethelpPopUp{
+    border-top: 1px solid grey;
+}
 
 .popUpCommonLink:hover{
     border-left: 3px solid red;
