@@ -7,6 +7,10 @@
 .topNavbar {
   border-bottom: 1px solid grey;
 }
+.topNavbar .container {
+  justify-content: space-between;
+  align-items: center;
+}
 
 .topNav-bar {
   display: flex;
@@ -16,6 +20,8 @@
 
 .nav-topNavbar ol {
   display: flex;
+  margin: 0rem;
+  padding: 0;
 }
 .nav-topNavbar li {
   list-style-type: none;
@@ -23,7 +29,7 @@
 .nav-topNavbar a {
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   color: black;
 }
 
@@ -45,12 +51,11 @@
   color: black;
 }
 
-.rightTopNavBar {
-  padding: 0rem 2rem;
+.navtopNavBarRightSide i {
+  color: black;
+  margin-right: 1rem;
 }
-.rightTopNavBar a {
-  display: inline-block;
-  padding: 0rem 1rem;
+.navtopNavBarRightSide a {
   text-decoration: none;
   color: black;
 }
@@ -106,7 +111,7 @@
 }
 
 .oneCommonWidth {
-  height: 488px;
+  height: 100%;
 }
 
 .oneCommonImg img {
@@ -237,6 +242,9 @@
 }
 
 @media (max-width: 575px) {
+  .topNavbar {
+    display: none;
+  }
   #one .container .row {
     flex-direction: column;
   }
@@ -289,5 +297,13 @@
     text-align: center;
     padding: 0.5rem 2rem;
     margin-top: 1rem;
+  }
+  .oneThirdCol {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 767px) {
+  .oneSecondColDetailsText h3 {
+    font-size: 1.2rem;
   }
 }/*# sourceMappingURL=Emergenciesanddisasters.css.map */

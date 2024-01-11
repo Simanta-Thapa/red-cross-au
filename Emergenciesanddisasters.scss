@@ -8,6 +8,10 @@
 
 .topNavbar{
     border-bottom: 1px solid grey;
+  .container{
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .topNav-bar{
@@ -17,9 +21,12 @@
 }
 
 
+
 .nav-topNavbar{
     ol{
         display: flex;
+        margin:0rem;
+        padding: 0;
     }
 
     li{
@@ -29,7 +36,7 @@
     a{
         text-decoration: none;
         display:inline-block;
-        padding:1rem 2rem;
+        padding:1rem 1rem;
         color:black;
     }
 }
@@ -57,17 +64,16 @@
     }
 }
 
-.rightTopNavBar{
-   padding:0rem 2rem;
+.navtopNavBarRightSide{
+    i{
+        color: black;
+        margin-right: 1rem;
+    }
 
-  
     a{
-        display:inline-block;
-        padding:0rem 1rem;
         text-decoration: none;
         color:black;
     }
-   
 }
 
 // lower navbar 
@@ -134,7 +140,7 @@
 
 
 .oneCommonWidth{
-   height: 488px;
+   height: 100%;
 }
 
 
@@ -347,6 +353,9 @@
 
 @media(max-width:575px){
 
+    .topNavbar{
+      display:none;
+    }
 
     // section one 
 
@@ -442,4 +451,16 @@
         margin-top:1rem;
     }
 }
+
+.oneThirdCol{
+    margin-top:1rem;
+}
+}
+
+@media (min-width:500px) and (max-width:767px){
+    .oneSecondColDetailsText{
+    h3{
+        font-size:1.2rem;
+    }
+    }
 }
