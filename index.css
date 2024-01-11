@@ -573,6 +573,21 @@ ol li a:hover{
         margin-right: 1rem;
     }
 
+    /* hero section  */
+
+    #heroSection{
+        background-image: url("https://www.redcross.org.au/contentassets/9f48bfed78bb474bbea5695e1b4e4c12/wave-2-banner-1800.jpg");
+        background-repeat: no-repeat;
+        
+       width: 100%;
+       height: 100vh;
+    
+    }
+
+    .firstColHeroSection{
+        text-align: initial;
+    }
+
      /* section first  */
     #ins-container2{
         flex-direction: column;

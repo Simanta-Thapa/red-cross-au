@@ -306,4 +306,17 @@
   .oneSecondColDetailsText h3 {
     font-size: 1.2rem;
   }
+}
+@media (min-width: 1155px) and (max-width: 1199px) {
+  .oneFirstColDetailsText a {
+    margin-top: 3rem;
+  }
+  .oneSecondColDetailsText h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .oneThirdCol {
+    margin-top: 0rem;
+  }
 }/*# sourceMappingURL=Emergenciesanddisasters.css.map */

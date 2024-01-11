@@ -136,7 +136,7 @@
 
 
 
-// section two 
+// section two and three
 
 
 .oneCommonWidth{
@@ -147,6 +147,7 @@
 .oneCommonImg img{
     width: 100%;
 }
+
 
 
 .oneCommonText{
@@ -350,7 +351,7 @@
 
 
 
-
+// main media queries 
 @media(max-width:575px){
 
     .topNavbar{
@@ -457,10 +458,36 @@
 }
 }
 
+
+// some part of content media queries separate
+
 @media (min-width:500px) and (max-width:767px){
     .oneSecondColDetailsText{
     h3{
         font-size:1.2rem;
     }
+    }
+}
+
+@media (min-width:1155px) and (max-width:1199px){
+
+    .oneFirstColDetailsText{
+        a{
+            margin-top:3rem;
+        }
+    }
+
+    .oneSecondColDetailsText{
+        h3{
+            font-size:1.5rem;
+        }
+    }
+
+
+}
+
+@media (min-width:992px){
+    .oneThirdCol{
+        margin-top:0rem;
     }
 }
