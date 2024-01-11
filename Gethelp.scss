@@ -168,8 +168,26 @@
     border-radius: 5px;
 }
 
+.sectiononerightside{
+    height: 100%;
+}
+
+.secondrowleftside{
+    height:100%;
+    img{
+        height:100%;
+    }
+}
+
+.thirdRowSecondColRightSide{
+    height: 100%;
+    img{
+        height:100%;
+    }
+}
 .sectiononerightside img{
     width: 100%;
+    height:100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -190,47 +208,11 @@
 
 // section two
 
-#two{
-    .container{
-        border:1px solid grey;
-        width: 50%;
-    }
-
-    
-
-
-}
-
-.twoSecondrowFirstcol{
-    .twoBtn-One{
-        font-weight: bold;
-        font-family: sans-serif;
-       line-height: 2rem;
-    text-decoration: none;
-    color: black;
-    font-size:2rem;
-        
+.twoData{
+    img{
+        width: 100%;
     }
 }
-
-
-.twoBtn{
-    display: inline-block;
-    margin-top: 1rem;
-    text-decoration: none;
-    color: white;
-    border:1px solid red;
-    background: red;
-    border-radius: 5px;
-    padding:0.5rem 2rem;
-}
-
-.twoBtn:hover{
-    background: white;
-    color: red;
-}
-
-
 
 // last section
 
@@ -264,14 +246,18 @@
 
 
 .commonLink{
-
+padding-top: 2rem;
 
     h3{
 
-        margin-left: 2rem;
+        // margin-left: 2rem;
         margin-bottom: 1rem;
+
     }
     ol{
+
+        padding:0rem;
+
         li{
 
 
@@ -292,6 +278,13 @@
 }
 
 
+
+
+@media (max-width:767px){
+    .topNavbar{
+        display: none;
+    }
+}
 
 @media (max-width:575px){
 

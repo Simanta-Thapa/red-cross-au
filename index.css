@@ -554,6 +554,25 @@ ol li a:hover{
 
  @media (max-width:767px) {
 
+    .topNav-bar{
+        gap:0rem;
+    }
+    .leftTopNavBar ol{
+        padding:0rem;
+    }
+
+    .leftTopNavBar ol li {
+       margin: 0rem;
+    }
+
+    .leftTopNavBar ol li a{
+        padding:1rem 0.3rem;
+    }
+ 
+    .rightTopNavBar i{
+        margin-right: 1rem;
+    }
+
      /* section first  */
     #ins-container2{
         flex-direction: column;
@@ -574,6 +593,17 @@ ol li a:hover{
         text-align: center;
         margin-bottom: 30px;
     }
+
+    /* hero section  */
+
+    .firstColHeroSection{
+        width: 100%;
+        text-align: center;
+    }
+    .firstColHeroSection h1{
+            font-size:2rem;
+    }
+
 /* 
      section two  */
 
