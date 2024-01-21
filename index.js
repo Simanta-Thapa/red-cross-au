@@ -37,5 +37,14 @@ $(".GethelpPopUp").mouseleave(function(){
 })
 })
 
+// $("body").scroll(function(){
+//     $("#bottom-navbar").addClass("active");
+//     alert("hello")
+// })
+// const showHeader =() =>{
+//     const header  = document.getElementById('bottom-navbar')
+//     this.scrollY >=100 ? header.classList.add("active")
+//                       : header.classList.remove("active")
+// }
 
-
+// window.addEventListener('scroll', showHeader)
